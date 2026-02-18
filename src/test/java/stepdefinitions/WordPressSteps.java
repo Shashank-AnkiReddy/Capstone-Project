@@ -50,7 +50,7 @@ public class WordPressSteps extends BaseTest {
     @Then("Search image and verify result")
     public void searchImage() {
 
-        String keyword = "flower";
+        String keyword = "club";
 
         photoPage.searchPhoto(keyword);
 
@@ -61,4 +61,5 @@ public class WordPressSteps extends BaseTest {
 
         closeBrowser();
     }
+
 }
